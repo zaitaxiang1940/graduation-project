@@ -1,0 +1,28 @@
+name: trajectory
+channels:
+- conda-forge
+- pytorch
+- defaults
+dependencies:
+- python=3.10
+- pip
+- patchelf
+- pip:
+    - setuptools>=68
+    - wheel>=0.43
+    - numpy==1.26.4
+    - scipy==1.11.4
+    - cython==3.0.10
+    - gym==0.23.1
+    - mujoco-py==2.1.2.14
+    - matplotlib==3.8.4
+    - torch==2.2.2
+    - typed-argument-parser==1.10.1
+    - scikit-image==0.22.0
+    - scikit-video==1.1.11
+    - gitpython==3.1.43
+    - h5py==3.10.0
+    - termcolor==2.4.0
+    - click==8.1.7
+    - pybullet==3.2.6
+    - autonomous-learning-library==0.9.1
